@@ -1,0 +1,279 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  background-color: black;
+    color: white;
+    /*font-family: Apercu,Source Sans Pro,Helvetica,Arial,sans-serif;*/
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    font-family: 'Share Tech Mono', monospace;
+}
+.grid-container{
+    height: 100vh;
+   display: grid;
+    grid-template: 10% / 100%; 
+   padding: 20px;
+     /* grid-template-areas: 
+    "header nav"
+    "sidenav home"
+    "aboutme"
+    "myhobby sidenav"
+    "mylinks mylinks"
+    "footer footer";  */
+}
+
+
+.grid-item{
+   
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid green; */
+    
+}
+
+.header{
+    vertical-align: middle;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding-left: 50px;
+   
+    margin-top: 10px;
+}
+.nav{
+    
+    
+    display: flex;
+   
+    align-self: center;
+    padding-right: 20px;
+}
+.nav1 a{
+font-size: 20px;
+margin: 20px;
+
+}
+
+.logo h2{
+    vertical-align: middle;
+   
+}
+body a:hover{
+    color: lightgreen;
+}
+.logo img{
+width: 40px;
+height: 40px;
+border-radius: 50px;
+vertical-align: middle;
+padding-right: 10px;
+
+}
+.logo img:hover{
+width: 45px;
+height: 45px;
+border-radius: 50px;
+
+}
+
+.home{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.homebody , .article{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-left: 150px;
+  
+}
+.homebody h1, .article_title{
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.homebody p{
+    color: grey;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.image-container img{
+    justify-content:end;
+    align-self: flex-end;
+    width: 45%;
+    height: auto;
+    display: inline;
+    border-radius: 20%;
+    
+}
+body .sidenav, html .sidenav{
+    background: 0 0;
+    border: none;
+    outline: 0;
+    position: fixed;
+    margin: 50px;
+    padding-top: 50px;
+    cursor: pointer;
+    scroll-behavior: smooth;   
+
+}
+.sidenav ul {
+
+        list-style-type: none;
+        padding-left: 0px;
+      
+}
+.sidenav li {
+    box-sizing: border-box;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    text-decoration: none !important;
+    background-color: grey;
+    border: 1px solid darkgray;
+    margin: 60px;
+    opacity: 50%;
+    scroll-behavior: smooth;
+}
+
+.sidenav li:hover{
+    background-color: lightgreen;
+    border: 2px solid lightgray;
+    opacity: 100%;
+    transform: 1px;
+}
+.sidenav li .sidenavline:active {
+    background-color: lightgreen;
+}
+
+.sidenavline {
+    box-sizing: border-box;
+    width: 20px;
+    height: 10px;
+    text-decoration: none !important;
+    color: grey;
+ 
+}
+.article_title{
+    margin-left: 50px;
+    font-stretch: expanded;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-left: 90px;
+    justify-content: center;
+}
+
+.article_content {
+    width: 70%;
+    margin-left: 50px;
+   
+    display: flex;
+    align-self: center;
+    margin-left: 300px;
+}
+.article_content p{
+    justify-content: flex-start;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    color: lightgray;
+}
+.aboutme a {
+    color: white;
+    
+}
+
+.header a {
+    color: grey;
+    text-decoration: none !important;
+}
+
+.resume h3{
+    vertical-align: middle;
+    align-self: center;
+    
+}
+.resume {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.resume a {
+    box-sizing: border-box;
+    border: 1px solid lightgreen;
+    padding: 20px;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 10px;
+}
+.resume a img {
+   padding: 0;
+   vertical-align: middle;
+}
+.resume h3:hover{
+    text-decoration: underline;
+}
+.resume img , .links img{
+    width: 35px;
+    height: auto;
+   vertical-align: middle;
+}
+.technologist {
+    background-image: url(images/female-technologist.png);
+}
+.work{
+    padding-bottom: 30px;
+}
+.article .work {
+    box-sizing: border-box;
+    justify-content: center;
+}
+.work .article_title{
+    padding-right: 250px;
+}
+.work a , .links a{
+   
+    text-decoration: none !important;
+    color: white;
+}
+table {
+    width: 100%;
+    vertical-align: center;
+    padding-right: 50px;
+    margin: 50px;
+    margin-right: 20px;
+    color: lightgray;
+    font-size: 18px;
+   
+}
+tr {
+    height: 80px;
+}
+.mainrow{
+    width: 300px;
+    padding-left: 50px;
+}
+.links  {
+    box-sizing: border-box;
+    border: 1px solid lightgreen;
+    padding: 20px;
+    margin: 50px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 10px;
+    width: 400px;
+}
+.mylinks .article_content {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
