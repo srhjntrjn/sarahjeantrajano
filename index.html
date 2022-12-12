@@ -6,44 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="asset/style.css">
     <script src="asset/main.js"></script>
-    <title>Web Dev Portfolio</title>
+    <title>  Web Dev Portfolio</title>
+    <link rel="icon" type="image/png" href="images/girl.png" >
 </head>
 <body>
     <div class="grid-container">
         <div class="grid-item header" id="header">
             <div class="logo"> 
-                <a href=""><h2> <img src="images/girl.png" alt="Me">Sarah Jean Trajano</h2></a>
+                <a href=""><h1> <img src="images/girl.png" alt="Me">Sarah Jean Trajano</h1></a>
             </div>
             <div class="nav">
                 <nav class="nav1">
                     <a href="#aboutme"> <b>About   </b></a> 
-                    <a href="contactus.php"> <b>Playground  </b></a>
+                    <a href="playground/"> <b>Playground  </b></a>
                    
                   </nav>
             </div>
         </div>
-      
-        <div class="grid-item home" id="home">
+        <div class="grid-item snav" id="snav">
             <div class="sidenav">
                 <nav>
                     <ul>
-                        <li><a href="#header"><div class="sidenavline"></div> </a></li>
-                        <li><a href="#aboutme"><div class="sidenavline"></div> </a></li>
-                        <li><a href="#skills"><div class="sidenavline"></div> </a></li>
-                        <li><a href="#work"><div class="sidenavline"></div> </a> </li>
-                        <li><a href="#mylinks"><div class="sidenavline"></div> </a> </li>
-                  </ul>
+                        <li><a href="#header" class="button"><div class="sidenavline"></div> </a></li>
+                        <li><a href="#aboutme" class="button"><div class="sidenavline"></div> </a></li>
+                        <li><a href="#skills"class="button"><div class="sidenavline"></div> </a></li>
+                        <li><a href="#work" class="button"><div class="sidenavline"></div> </a> </li>
+                        <li><a href="#mylinks" class="button"><div class="sidenavline"></div> </a> </li>
+                </ul>
                 </nav>
             </div>
+        </div>
+        <div class="grid-item home" id="home">
+            
             <div class="homebody">
                
                 <div class="homecontent">  
-                    <h1><b> Hi, I'm Sarah!</b>   </h1> 
-                    <p>aspiring Web Developer</p>
+                    <h2><b> Hi, I'm Sarah!</b>   </h2> 
+                    <p>aspiring Web Developer</p> <br>
+                    <div class="image-container">
+                      
+                        <img src="images/3dfemalesiping.png" alt="3dfemalesiping">
+                    </div>
                 </div>
-                <div class="image-container">
-                    <img src="images/3dfemalesiping.png" alt="3dfemalesiping">
-                </div>
+                
                
                 
             </div>
@@ -89,7 +94,7 @@
                         <ul>
                             <li> <img src="images/nodejs.png" alt="nodejs">  NodeJS</li>
                             <li><img src="images/express.png" alt="express">  ExpressJS</li> 
-                            <li><img src="images/php.png" alt="php">PHP</li>
+                            <li><img src="images/php.png" alt="php"> PHP</li>
                        </ul> 
                     </div>
                     <div class="skillsdiv">
@@ -119,6 +124,35 @@
                 <div class="article_title">Work Experience</div>
                 <table>
                     <tr>
+                        <th class="companycol">Company :</th>
+                        <th><a href="https://peace.gov.ph/" target="_blank">Office of the Presidential Adviser on the Peace, Reconciliation and Unity</a></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">Position :</th>
+                        <td>Project Developer IV <br>
+                            November 2022 - Present
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Program Officer II <br>
+                            March 2017 - November 2022
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Project Developer I <br>
+                            April 2014 - February 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Full time Developer Internship <br>
+                             November 2013- March 2014
+
+                         </td>
+                     </tr>
+                    
+                    <!-- <tr>
                         <th>Company</th>
                         <th>Position</th>
                         <th>Inclusive Dates</th>
@@ -140,7 +174,7 @@
                     <tr>
                        <td>Full time Developer Internship</td>
                         <td>November 2013- March 2014</td>
-                    </tr>
+                    </tr> -->
                 </table>
             </article>
         </div>
@@ -150,9 +184,9 @@
                 <div class="article_title">Contact Me</div>
                  <div class="article_content">
                     <div class="links">
-                       <a href="mailto:sarahjeantrajano@gmail.com" target="_blank">
-                         <h3><img src="images/email.svg" alt="Email"> sarahjeantrajano@gmail.com</h3> </a>
-                    </div>
+                        <a href="mailto:sarahjeantrajano@gmail.com" target="_blank">
+                          <h3><img src="images/email.svg" alt="Email"> Email</h3> </a>
+                     </div>
                     <div class="links">
                         <a href="https://gitlab.com/sarahjeantrajano" target="_blank">
                           <h3><img src="images/git.png" alt="git"> GitLab</h3> </a>
@@ -169,6 +203,7 @@
                         <a href="https://www.instagram.com/sarahjeantrajano/" target="_blank">
                           <h3><img src="images/instagram.svg" alt="Instagram"> Instagram</h3> </a>
                      </div>
+                     
                      <div class="links">
                         <a href="https://www.facebook.com/strajano/" target="_blank">
                           <h3><img src="images/facebook.png" alt="Facebook"> Facebook</h3> </a>

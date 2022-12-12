@@ -1,19 +1,17 @@
+var slider_content=document.getElementById('boxinsta');
+var imagearray = ['malamawi','cotabato','tagaytay','zambocity'];
+var i = imagearray.length;
 
+function nextimage(){
+  alert("hahshd");
+  if (i<imagearray.length){
+    i=i+1;
+  }
+  else{
+    i=1;
+  }
+  // imageloc="../images/blog/".imagearray[i-1];
+  // slider_content.innerHTML = "<img src="+ imageloc+".png>";
+  slider_content.innerHTML = "<img src='../images/blog/"+ imagearray[i-1] +".png'>";
 
-
-// Toggle between DAy and Night Mode
-$('#switch1').on('click', function(){
-    $('body').toggleClass('night')
-  })
-  
-  // If user visit after 7 pm in night the body will change the style to night class
-  $(document).ready(function(){
-    var date = new Date();
-    var current_time = date.getHours();
-    if (current_time > 19 || current_time < 6)
-      // If time is after 7PM or before 6AM, apply night theme to ‘body’
-      document.body.className = "night";
-    else
-      // Else use ‘day’ theme
-      document.body.className = "";
-  });
+}
