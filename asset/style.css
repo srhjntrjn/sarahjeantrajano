@@ -53,7 +53,7 @@ margin: 20px;
    
 }
 body a:hover{
-    color: lightgreen;
+    color: white;
 }
 .logo img{
 width: 40px;
@@ -213,13 +213,13 @@ body .sidenav, html .sidenav{
 }
 
 .sidenav li:hover{
-    background-color: lightgreen;
+    background-color: white;
     border: 2px solid lightgray;
     opacity: 100%;
     transform: 1px;
 }
 .sidenav li .sidenavline:active {
-    background-color: lightgreen;
+    background-color: white;
 }
 
 .sidenavline {
@@ -292,7 +292,7 @@ box-sizing: border-box;
 }
 .resume a {
     box-sizing: border-box;
-    border: 1px solid lightgreen;
+    border: 2px solid white;
     padding: 20px;
     vertical-align: middle;
     justify-content: center;
