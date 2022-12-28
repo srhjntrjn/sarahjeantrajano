@@ -207,6 +207,7 @@ body .sidenav, html .sidenav{
     border-radius: 10px;
     text-decoration: none !important;
     background-color: white;
+    opacity: 70%;
     border: 1px solid ;
     color: black;
     font: 15px;
