@@ -671,7 +671,7 @@ tr {
     
      
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
     .nav1 a {
         font-size: 15px;
         margin: 10px;
