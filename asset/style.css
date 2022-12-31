@@ -700,4 +700,8 @@ tr {
     .skills-div{
         width: 70%;
     }
+    .skills-div img, .links img {
+        width: 20px;
+        height: 20px;
+    }
 }
