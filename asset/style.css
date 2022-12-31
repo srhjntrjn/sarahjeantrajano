@@ -625,6 +625,7 @@ tr {
     }
     .skills-div img, .links img{
         width:20px ;
+        height: 20px;
     }
     table {
         width: 80%;
